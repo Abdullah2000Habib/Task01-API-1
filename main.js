@@ -72,8 +72,7 @@ fetch('https://jsonplaceholder.typicode.com/posts',{
 }).then((response)=>response.json()).then((data)=>{
             console.log(data)
             let box =`<div class="box">
-                <h4 class="box-
-                ">${data.title}</h4>
+                <h4 class="box-title">${data.title}</h4>
                 <p class="box-description">${data.body}</p>
                 <div class="box-spans">
                     <span class="span-one">P1</span>
